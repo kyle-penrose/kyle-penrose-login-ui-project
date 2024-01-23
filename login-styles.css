@@ -1,0 +1,34 @@
+/* this is the style sheet */
+
+body {
+	display: flex;
+	margin: 0;
+	background-color: rgb(250,250,250);
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.blank_container {
+	display:flex;
+	height: 40vh;	
+}
+.container {
+	display: flex;
+	height: 30vh;
+	width: 45vh;
+	background-color: rgb(200,200,200);
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	justify-items: flex-end;
+	align-items: center;
+	align-self: center;
+	min-width: 400px;
+	min-height: 300px;
+}
+
+.item {
+	display: flex;
+	width: 20vh;
+	height: 4vh;
+}
