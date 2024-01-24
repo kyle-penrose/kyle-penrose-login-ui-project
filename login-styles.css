@@ -1,23 +1,23 @@
 /* this is the style sheet */
 
 body {
-	/*
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	flex-direction: column;*/
 	height: 100vh;	
 	margin: 0;
 	background-color: #250BE3;
 	background: linear-gradient(to bottom, #0be391,#250be3);
 
-	/* Flex Container Properties */
-	display:flex;
-	justify-content: center;
 }
 
+.container{
 
-.container {
+	/* Flex Container Properties */
+	height: 100vh;
+	display:flex;
+	justify-content: center;
+
+}
+
+.loginBox {
 
 	min-width: 500px;
 	min-height: 400px;
@@ -93,5 +93,9 @@ button:active {
 
 	/* Flex Item Properties*/
 
+}
+
+#caption {
+	animation: "fade" 2s ease-in-out 0 1 alternate;
 }
 
