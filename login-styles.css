@@ -85,7 +85,10 @@ button:active {
 	min-width: 170px;
 	min-height: 42px;
 	border-radius: 10px;
-	border-width: 1px;
+	
+/*	border: none;*/
+	border:1px solid #AAAAAA;
+	outline: none;
 
 	/* text style */
 	font-family: 'Raleway',sans-serif;
@@ -97,5 +100,4 @@ button:active {
 
 
 }
-
 
