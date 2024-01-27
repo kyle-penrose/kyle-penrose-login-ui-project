@@ -18,16 +18,15 @@ body {
 }
 
 .loginBox {
-	/*box style*/
+
+	/*login box minimum dimensions*/
 	min-width: 500px;
 	min-height: 400px;
 
+	/*login box styles*/
 	background-color: #ffffff;
 	box-shadow: 0px 0px 30px;
 	border-radius: 10px;
-
-	
-
 
 	/* Flex Item Properties */
 	align-self: center;
@@ -64,7 +63,7 @@ button {
 	box-shadow: 0px 3px 7px #000000;
 	margin-bottom: 20px;
 
-	/* text style */
+	/* button text style */
 	color: #ffffff;
 	text-align: center;
 	font-family:'Raleway', sans-serif;
@@ -79,14 +78,11 @@ button:active {
 
 }
 
-
 .form {
 	/* Textbox Style */
 	min-width: 170px;
 	min-height: 42px;
 	border-radius: 10px;
-	
-/*	border: none;*/
 	border:1px solid #AAAAAA;
 	outline: none;
 
@@ -97,7 +93,5 @@ button:active {
 	padding: 5px;
 	padding-left: 15px;
 	padding-right: 15px;
-
-
 }
 
